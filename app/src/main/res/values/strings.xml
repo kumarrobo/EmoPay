@@ -1,0 +1,322 @@
+<resources>
+    <string name="app_name">EmoPay</string>
+    <string name="top_icon">top icon</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="already_account">Already Have an Account?</string>
+    <string name="or">OR</string>
+    <string name="forgot_password">Forget Password</string>
+    <string name="facebook_icon">Facebook Login</string>
+    <string name="new_user_register_now">New User Register Now</string>
+    <string name="google_icon">Google icon</string>
+    <string name="activity_dashboard">Dashboard</string>
+    <string name="move_to_bank">Move To Bank</string>
+    <string name="profile">Profile</string>
+    <string name="qr_code">QR Code</string>
+    <string name="wallet">Wallet</string>
+    <string name="history">History</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recharge">Recharge</string>
+    <string name="electricity">Electricity</string>
+    <string name="dth">DTH</string>
+    <string name="gas">GAS</string>
+    <string name="water">Water</string>
+    <string name="moneytransfer">Money Transfer</string>
+    <string name="insurance">Insurance</string>
+    <string name="pancard">Pan Card(UTI)</string>
+    <string name="aeps">AEPS</string>
+    <string name="insuranceenvt">Insurance Environment</string>
+    <string name="dthbooking">DTH Booking</string>
+    <string name="balanceenq">Balance Enquiry</string>
+    <string name="cashwithdrawl">Cash Withdrawal</string>
+    <string name="adharnumber">Adhar Number</string>
+    <string name="mobno">Mobile Number</string>
+    <string name="continueto">Continue</string>
+    <string name="name">Name</string>
+    <string name="home">Home</string>
+    <string name="amount">Amount</string>
+    <string name="walletbalance">Wallet Balance</string>
+    <string name="addbalance">Add Balance</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="selectdevice">Select Device</string>
+    <string name="prepaid">Prepaid</string>
+    <string name="postpaid">Postpaid</string>
+    <string name="viewoffer">View Offer</string>
+    <string name="save">Save</string>
+    <string name="accountid">Account Id</string>
+    <string name="custoraccno">Customer/Acoount No</string>
+    <string name="fetchbill">Fetch Bill</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="beneficiarydetails">Beneficiary Details</string>
+    <string name="verify">Verify</string>
+    <string name="accno">Account Number</string>
+    <string name="ifsc">IFSC</string>
+    <string name="bankname">Bank Name</string>
+    <string name="utr">UTR/Reference No</string>
+    <string name="remark">Remark</string>
+    <string name="seltype">Select Type</string>
+    <string-array name="paymode">
+        <item>Same Bank</item>
+        <item>Other Bank</item>
+        <item>ATM</item>
+        <item>IMPS/UPI</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="circlecode">
+       <!-- <item>Select Circle</item> -->
+        <item>Andhra Pradesh,1</item>
+        <item>Assam,2 </item>
+        <item> Bihar Jharkhand,3</item>
+        <item> Chennai,4 </item>
+        <item>Delhi,5	</item>
+        <item> Goa,26	</item>
+        <item> Gujarat,6	</item>
+        <item>Haryana,7	</item>
+        <item> Himachal Pradesh,8	</item>
+        <item> Jammu &amp; Kashmir,9	</item>
+        <item> Karnataka,10	</item>
+        <item>Kerala,11	</item>
+        <item>Kolkata,12	</item>
+        <item>Madhya Pradesh &amp; Chhattisgarh,14	</item>
+        <item>Maharashtra,13	</item>
+        <item>Manipur,27	</item>
+        <item>Mumbai,15	</item>
+        <item>North East,16</item>
+        <item>Orissa,17	</item>
+        <item> Punjab,18	</item>
+        <item>Rajasthan,19	</item>
+        <item>Tamil Nadu,20	</item>
+        <item>Uttar Pradesh (E),21	</item>
+        <item>Uttar Pradesh (W),22	</item>
+        <item>West Bengal,23	</item>
+    </string-array>
+    <string-array name="mobileoperator">
+       <!-- <item>Select Operator,</item>-->
+        <item>Airtel,AT</item>
+        <item>BSNL,BS</item>
+        <item>BSNL Special,BSS</item>
+        <item>Jio,JO</item>
+        <item>VI,VI</item>
+    </string-array>
+    <string-array name="dthoperator">
+       <!-- <item>Select Operator</item> -->
+        <item>Airtel Digital TV,AD</item>
+        <item>Dish TV,DT</item>
+        <item>Sun Direct,SD</item>
+        <item>Tata Sky,TS</item>
+        <item>Videocon d2h,V2</item>
+    </string-array>
+   <string-array name="postpaidoperator">
+    <!--   <item>Select Operator</item> -->
+       <item>AIRTEL,ATP</item>
+       <item>BSNL,BPOS</item>
+       <item>IDEA,IPOS</item>
+       <item>Jio,RGPOS</item>
+       <item>VODAFONE,VPOS</item>
+   </string-array>
+    <string-array name="electricityoperator">
+      <!--  <item>Select Operator</item> -->
+        <item>Adani Electricity,ADEM</item>
+        <item>Ajmer Vidyut Vitran Nigam Limited,AVVR	</item>
+        <item>APDCL (Non-RAPDR) - ASSAM,APDC	</item>
+        <item>APDCL (RAPDR) - ASSAM,APDR	</item>
+        <item>APEPDCL - Andhra Pradesh,APEP	</item>
+        <item>APSPDCL - Andhra Pradesh,APSP	</item>
+        <item>Bangalore Electricity supply company Ltd,BESC	</item>
+        <item>BEST Undertaking,BEUM	</item>
+        <item>Bikaner Electricity Supply Limited,BKEB	</item>
+        <item>BSES Rajdhani Power Limited,BSRD	</item>
+        <item>BSES Yamuna Power Limited,BSYD	</item>
+        <item>Calcutta Electric Supply Corporation Limited,CESC	</item>
+        <item>CESCOM - KARNATAKA,CESK	</item>
+        <item>Chhattisgarh State Power Distribution Company Ltd,CSPD	</item>
+        <item>Dakshin Gujarat Vij Company Limited,DGVC	</item>
+        <item>Dakshin Haryana Bijli Vitran Nigam,DHBH	</item>
+        <item>Daman And Diu Electricity,DADE	</item>
+        <item>DNH Power Distribution Company Limited,DNHP</item>
+        <item>Goa Electricity Department,GOED</item>
+        <item>Gulbarga Electricity Supply Company Limited,GESK	</item>
+        <item>Himachal Pradesh State Electricity Board Ltd,HPSE	</item>
+        <item>Hubli Electricity Supply Company Ltd,HESK	</item>
+        <item>Jaipur Vidyut Vitran Nigam,JVVR	</item>
+        <item>Jammu and Kashmir Power Development Department,JKPD	</item>
+        <item>Jamshedpur Utilities &amp; Services (JUSCO),JUSC	</item>
+        <item>Jharkhand Bijli Vitran Nigam Limited,JBVN	</item>
+        <item>Jodhpur Vidyut Vitran Nigam Limited,JDVR	</item>
+        <item>Kanpur Electricity Supply Company,KESC	</item>
+        <item>Kerala State Electricity Board Ltd,KSEB	</item>
+        <item>Kota Electricity Distribution Limited,KEDR	</item>
+        <item>Madhya Gujarat Vij Company Limited,MGVG	</item>
+        <item>Madhya Kshetra Vitaran (Rural) - Madhya Pradesh,MKMP	</item>
+        <item>Madhya Kshetra Vitaran (Urban) - Madhya Pradesh,MKVU	</item>
+        <item>Meghalaya Power Dist Corp Ltd,MPDC	</item>
+        <item>MSEDCL,MSEM </item>
+        <item>Muzaffarpur Vidyut Vitran,MZVV	</item>
+        <item>NESCO Utility,NESO	</item>
+        <item>New Delhi Municipal Council (NDMC),NDMC	</item>
+        <item>Noida Power Copmpany Limited,NOPN	</item>
+        <item>North Bihar Power Distribution Co. Ltd,NBBR	</item>
+        <item>Paschim Gujarat Vij Company Limited,PGVG	</item>
+        <item>Paschim Kshetra Vidyut Vitaran - Madhya Pradesh,PVMP	</item>
+        <item>Poorv Kshetra Vitaran (NBG-Urban) - MADHYA PRADESH,PKVU	</item>
+        <item>Poorv Kshetra Vitaran (Rural) - MADHYA PRADESH,PKVR	</item>
+        <item>Punjab State Power Corporation Limited,PSPC	</item>
+        <item>SNDL Power - NAGPUR,SNPN	</item>
+        <item>South Bihar Power Distribution Co. Ltd,SBBR	</item>
+        <item>Southern Electricity Supply Company Of Odisha Limited,SOTO</item>
+        <item>Tamil Nadu Electricity Board,TNEB	</item>
+        <item>Tata Power - MUMBAI,TAPM	</item>
+        <item>Tata Power -Mumbai,TAPM	</item>
+        <item>Tata Power AJMER - RAJASTHAN,TPAR	</item>
+        <item>Tata Power Delhi Distribution Limited,TAPD	</item>
+        <item>Telangana Co-Operative Electric Supply Society Ltd,TESS	</item>
+        <item>Telangana State Southern Power Distribution Compan,TSSP	</item>
+        <item>Torrent Power Limited - Agra,TPAG	</item>
+        <item>Torrent Power Limited - Ahmedabad,TPAH	</item>
+        <item>Torrent Power Limited - Bhiwandi,TPBW	</item>
+        <item>Torrent Power Limited - Surat,TPSR	</item>
+        <item>TP Central Odisha Distribution Limited (TPCODL),TPCO	</item>
+        <item>Tripura Electricity Corp Ltd,TSTP,TSTP	</item>
+        <item>Uttar Gujarat Vij Company Limited,UGVG	</item>
+        <item>Uttar Haryana Bijli Vitran Nigam,UHBV	</item>
+        <item>Uttar Pradesh Power Corporation Ltd (RURAL),URUP	</item>
+        <item>Uttar Pradesh Power Corporation Ltd (Urban - Smart Meter),UUUP	</item>
+        <item>Uttarakhand Power Corporation Ltd - UPCL,UPUK	</item>
+        <item>WESCO Utility,WESO	</item>
+        <item>West Bengal State Electricity Distribution Company Limited,WBSE	</item>
+    </string-array>
+    <string-array name="gasoperator">
+        <item>Aavantika Gas Ltd,AVTG	</item>
+        <item>Assam Gas Company Limited,ASSG	</item>
+        <item>Bhagyanagar Gas Limited,BHAG	</item>
+        <item>Central U.P. Gas Limited,CUGL	</item>
+        <item>Charotar Gas Sahakari Mandali Ltd,CGSM	</item>
+        <item>GAIL Gas Limited,GAIG	</item>
+        <item>Green Gas Limited(GGL),GREG	</item>
+        <item>Gujarat Gas Limited,GUJG	</item>
+        <item>Haryana City Gas,HARG	</item>
+        <item>Indian Oil-Adani Gas Private Limited,INAG	</item>
+        <item>Indraprastha Gas Limited,INPG	</item>
+        <item>IRM Energy Private Limited,IRMG	</item>
+        <item>Megha Gas,MEGG	</item>
+        <item>Naveriya Gas Pvt Ltd,NAVG	</item>
+        <item>Sabarmati Gas Limited (SGL),SABG	</item>
+        <item>Torrent Gas Moradabad Limited,TGML	</item>
+        <item>Tripura Natural Gas,TRIG	</item>
+        <item>Unique Central Piped Gases Pvt Ltd (UCPGPL),UCPG	</item>
+       </string-array>
+    <string-array name="broadbandoperator">
+      <!--  <item>Select Operator</item> -->
+        <item>ACT Broadband,ACTB	</item>
+        <item>Asianet,ASIB	</item>
+        <item>Comway Broadband,COMB	</item>
+        <item>Connect Broadband,CNBB	</item>
+        <item>Den,DENB	</item>
+        <item>Fusionnet,FUSB	</item>
+        <item>Hathway Broadband,HTBB	</item>
+        <item>INSTALINKS,INSB	</item>
+        <item>Instanet Broadband,INSB	</item>
+        <item>ION,IONB	</item>
+        <item>Netplus Broadband,NETB	</item>
+        <item>Nextra Broadband,NTBB	</item>
+        <item>Spectranet Broadband,SRBB	</item>
+        <item>Tikona Broadband,TKBB	</item>
+        <item>Timbl Broadband,TIMB	</item>
+        <item>TTN Broadband,TTNB	</item>
+        <item>Vfibernet Broadband,VFIB	</item>
+    </string-array>
+
+    <string-array name="landlineoperator">
+        <!--<item>Select Operator</item> -->
+        <item>Airtel(LL),ATLL</item>
+        <item>BSNL - Corporate,BCLL	</item>
+        <item>BSNL Individual(LL),BSLL	</item>
+        <item>MTNL - Delhi(LL),MDLL	</item>
+        <item>MTNL - Mumbai(LL),MMLL</item>
+    </string-array>
+    <string-array name="wateroperator">
+      <!--  <item>Select Provider</item> -->
+        <item>Bangalore Water Supply and Sewerage Board (BWSSB),BWSS	</item>
+        <item>Bhopal Municipal Corporation,BMCW	</item>
+        <item>Delhi Development Authority (DDA),DDAW	</item>
+        <item>Delhi Jal Board,DLBW	</item>
+        <item>Department of Public Health Engineering-Water Mizoram,DPHE	</item>
+        <item>Greater Warangal Municipal Corporation,GWMC	</item>
+        <item>Gwalior Municipal Corporation,GMCW	</item>
+        <item>Haryana Urban Development Authority,HUDA	</item>
+        <item>Hyderabad Metropolitan Water Supply and Sewerage Board (HMWSSB),HMWS	</item>
+        <item>Indore Municipal Corporation,IMCW	</item>
+        <item>Jabalpur Municipal Corporation,JMCW	</item>
+        <item>Jalkal Vibhag Nagar Nigam Prayagraj,JVNN	</item>
+        <item>Kerala Water Authority (KWA),KWAW	</item>
+        <item>Ludhiana Water Board,LWBW	</item>
+        <item>Madhya Pradesh Urban (e-Nagarpalika),MPUN	</item>
+        <item>Municipal Corporation Chandigarh,MUCC	</item>
+        <item>Municipal Corporation Jalandhar,MCJW	</item>
+        <item>Municipal Corporation of Amritsar,MCAW	</item>
+        <item>Municipal Corporation of Gurugram (MCG),MCGW	</item>
+        <item>Mysuru City Corporation,MCCW	</item>
+        <item>New Delhi Municipal Council (NDMC),NDMW	</item>
+        <item>Port Blair Municipal Council,PBMC	</item>
+        <item>Pune Municipal Corporation,PNMW	</item>
+        <item>Punjab Municipal Corporation/Council,PMCW	</item>
+        <item>Ranchi Municipal Corporation,RMCW	</item>
+        <item>Silvassa Municipal Council,SMCW	</item>
+        <item>Surat Municipal Corporation,SUMC	</item>
+        <item>Urban Improvement Trust (UIT) - Bhiwadi,UITW	</item>
+    </string-array>
+    <string-array name="fasttagoperator">
+        <item>Axis Bank,AXIF</item>
+        <item>Bank of Baroda,BOBF	</item>
+        <item>HDFC Bank,HDFF	</item>
+        <item>IDFC First Bank,IDFF	</item>
+        <item>Indian Highways Management Company,IHMF	</item>
+        <item>IndusInd Bank,IIBF	</item>
+        <item>Kotak Mahindra Bank,KMBF	</item>
+    </string-array>
+    <string-array name="insuranceoperator">
+        <item>Aavas Financiers,AAVA	</item>
+        <item>Aditya Birla Housing Finance Limited,ABHF	</item>
+        <item>Arohan Financial Services Limited,AROH	</item>
+        <item>Aspire Home Finance,ASPI	</item>
+        <item>Bajaj Auto Finance,BAAF	</item>
+        <item>Capri Global Capital Limited,CGCL	</item>
+        <item>Capri Global Housing Finance,CGHF	</item>
+        <item>DMI Finance,DMIF	</item>
+        <item>ESS KAY FINCORP,ESSK	</item>
+        <item>Faircent,FAIR	</item>
+        <item>FlexSalary,FLEX	</item>
+        <item>Hero FinCorp,HEFC	</item>
+        <item>I2I Funding,I2IF	</item>
+        <item>IDFC First Bank Limited,IDFL	</item>
+        <item>Indiabulls Consumer Finance Limited,ICFL	</item>
+        <item>INDIABULLS HOUSING FINANCE,IBHF	</item>
+        <item>Jana Small Finance Bank,JSFB	</item>
+        <item>L&amp;T Finance Limited,LTFL	</item>
+        <item>L&amp;T Housing Finance,LTHF	</item>
+        <item>LoanTAP,LTAP	</item>
+        <item>LokSuvidha,LOKS	</item>
+        <item>PaisaDukan,PAIS	</item>
+        <item>SHRIRAM CITY UNION FINANCE LIMITED,SHRI		</item>
+        <item>Snapmint,SNAP	</item>
+        <item>Tata Capital,CGCL	</item>
+        <item>Varthana,VART	</item>
+        <item>ZestMoney,ZESM	</item>
+    </string-array>
+    <string-array name="mobileplans">
+        <!-- <item>Select Type</item> -->
+        <item>Top-up Recharge,TUP</item>
+        <item>Full Talk-time Recharge,FTT</item>
+        <item>2G Data Recharge,2G</item>
+        <item>3G/4G Data Recharge,3G</item>
+        <item>SMS Pack Recharge,SMS</item>
+        <item>Local/STD/ISD Call Recharge,LSC</item>
+        <item>Other Recharge,OTR</item>
+        <item>National/International Roaming Recharge,RMG	</item>
+    </string-array>
+</resources>

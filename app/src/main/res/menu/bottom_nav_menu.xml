@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item
+        android:id="@+id/navigation_move_to_bank"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/move_to_bank" />
+-->
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_person"
+        android:title="@string/profile" />
+
+    <!--<item
+        android:id="@+id/navigation_qrcode"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/qr_code" />
+-->
+    <item
+        android:id="@+id/navigation_wallet"
+        android:icon="@drawable/iconwallet"
+        android:title="@string/wallet" />
+ <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/iconhistory"
+        android:title="@string/history" />
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.wallet.WalletFragment">
+
+    <RelativeLayout
+        android:id="@+id/dmtrelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal|center_vertical">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_walletbalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/walletbalance"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:background="@drawable/rippleeffect" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_addbalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_walletbalance"
+                android:text="@string/addbalance"
+                tools:ignore="MissingConstraints"
+                android:textColor="@color/white"
+                android:scrollbarSize="15sp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rippleeffect" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_withdraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/withdraw"
+            tools:ignore="MissingConstraints"
+            android:textColor="@color/white"
+            android:scrollbarSize="15sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rippleeffect"
+            android:layout_below="@id/btn_addbalance"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

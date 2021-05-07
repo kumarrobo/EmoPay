@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/mainpage">
+
+    <fragment
+        android:id="@+id/mainpage"
+        android:name="com.example.emopay.MainPage"
+        android:label="@string/activity_dashboard"
+        tools:layout="@layout/fragment_mainpage" />
+
+    <fragment
+        android:id="@+id/navigation_move_to_bank"
+        android:name="com.example.emopay.ui.movetobank.MoveToBankFragment"
+        android:label="@string/move_to_bank"
+        tools:layout="@layout/fragment_move_to_bank" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.emopay.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_qrcode"
+        android:name="com.example.emopay.ui.qrcode.QRCodeFragment"
+        android:label="@string/qr_code"
+        tools:layout="@layout/fragment_qrcode" />
+  <fragment
+        android:id="@+id/navigation_wallet"
+        android:name="com.example.emopay.ui.wallet.WalletFragment"
+        android:label="@string/wallet"
+        tools:layout="@layout/fragment_wallet" />
+  <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.emopay.ui.history.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_history" />
+</navigation>

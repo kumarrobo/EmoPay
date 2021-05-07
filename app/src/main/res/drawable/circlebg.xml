@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--res/drawable/circular.xml-->
+<!--defines the circular shape and its properties-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:innerRadius="0dp"
+    android:shape="ring"
+    android:thicknessRatio="2.0"
+    android:useLevel="false">
+
+    <solid
+        android:color="@color/throughoutcolor" />
+
+    <stroke
+        android:width="9dp"
+        android:color="@android:color/white" />
+</shape><!--
+&lt;!&ndash;defines the circular shape and its properties&ndash;&gt;
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    android:thicknessRatio="2.0"
+    android:useLevel="false" >
+
+    <solid
+        android:color="@color/register_bk_color" />
+
+    <stroke
+        android:width="2dp"
+        android:color="@android:color/darker_gray" />
+</shape>-->

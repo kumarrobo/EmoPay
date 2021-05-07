@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.activity.BimetricDeviceSelectionActivity"
+    android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+    android:id="@+id/tv_selectdevice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/selectdevice"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:textColor="@color/throughoutcolor"
+    android:gravity="center"
+    android:layout_marginTop="50dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginTop="50dp"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/tv_selectdevice"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/continueto"
+            tools:ignore="MissingConstraints"
+            android:layout_below="@id/spinner"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rippleeffect"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
